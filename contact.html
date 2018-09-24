@@ -8,6 +8,16 @@
     <title>Basic Portfolio</title>
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/contact.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+}
+</style>
+</head>
 </head>
 
 <body>
@@ -32,27 +42,26 @@
                     <p>
                         
                       <label for="fname"> Name</label><br>
-                      <input type="text" id="name" name="name" placeholder="Your name..">
+                      <input class="name" type="text" id="name" name="name" placeholder="Your name..">
                     <br><br>
                       <label for="email">Email</label><br>
-                      <input type="text" id="email" name="email" placeholder="Your email..">
+                      <input class="email" type="text" id="email" name="email" placeholder="Your email..">
                       <br><br>
                       <label for=message>Message</label><br>
-                      <input type="text" id="message" name="message" placeholder="Message..">
+                      <input class="message" type="text" id="message" name="message" placeholder="Message..">
                     </p>
-                  
-                     
-                      </select>
-                    
-                      <input type="submit" value="Submit">
-                    </form>
+                
+                </div>
+                <div>
+                <input  type="submit" value="Submit" id="submitbutton" class="hover">
+                </form>
                   </div>
                   
             </article>
     </div>
     
     <div class="footer">
-        <!-- Small, long, teal box here. As a Section?-->
+        
         <footer >
             <p id="copywright"> &copy; Copyright 2018</p>
         </footer>
