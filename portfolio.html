@@ -5,11 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <title>Basic Portfolio</title>
+    <title>Responsive-Portfolio</title>
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/portfolio.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="assets/css/responsive-portfolio.css" rel="stylesheet"> <!--fix this pathway for portfolio.css-->
+    <link href="Pyschic-Game">
 <style>
+
+/*make header static to only 640px.  how?? size*/
+.Header {
+   position: fixed;
+   left: 0;
+   top: 0;
+   width: 100%;
+}
+
 .footer {
    position: fixed;
    left: 0;
@@ -18,48 +29,58 @@
 }
 </style>
 </head>
-</head>
+
 
 <body>
-    <div class="Header">
+     <div class="Header">
         <h2 class="first">Denise Lorenz</h2>
-        <nav id="nav"> 
-            <ul>
-                <li><a href="index.html">About</a></li>
-                <li> <a href="portfolio.html">Portfolio</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </div>
-    <hr>
-    <div class="Content">
-            <article class="Article">
-               <h1>Portfolio</h1><hr>
+         <nav id="nav"> 
+      <ul>
+         <li><a href="index.html">About</a></li>
+          <li> <a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+     </nav>
+     </div>
+            <hr>
+     
+<div>
 
-               
-               <div>
-                    <form action="/action_page.php">
-                      <label for="fname">First Name</label>
-                      <input type="text" id="fname" name="firstname" placeholder="Your name..">
-                  
-                      <label for="lname">Last Name</label>
-                      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-                  
-                     
-                      </select>
-                    
-                      <input type="submit" value="Submit">
-                    </form>
-                  </div>
-                  
+<div class="Content">
+        <article class="Article">
+                <h1>Portfolio</h1><hr>
+<div class="box"><a href="https://readynowtochange.github.io/Psychic-Game/">Psychic-Game</a>
+<style> a { color:aliceblue;}</style>
+</div>
+<div class="box"> <a href="https://readynowtochange.github.io/Unit-4-game/">Climber Button Game</a>
+    <style> a { color:aliceblue;}</style>
+    </div>
+    <div class="box move">
+            Portfolio 3
+            <style> a { color:aliceblue;}</style>
+        </div>
+        <div class="box">
+                Portfolio 4
+                <style> a { color:aliceblue;}</style>
+            </div>
+            <div class="box move">
+                    Portfolio 5
+                    <style> a { color:aliceblue;}</style>
+                </div>
+
             </article>
-    </div>
+      </div>
     
-    <div class="footer">
-        <!-- Small, long, teal box here. As a Section?-->
-        <footer >
-            <p id="copywright"> &copy; Copyright 2018</p>
-        </footer>
-    </div>
+    </div>                  
+     
+            
+            <div class="footer">
+                
+                <footer >
+                    <p id="copywright"> &copy; Copyright 2018</p>
+                </footer>
+            </div>
+
+
 </body>
 </html>
